@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
           tempCell.textContent = temperature;
         }
       } else {
-        weatherTableBody.innerHTML = '<tr><td colspan="2">Please Enter Valid Cities</td></tr>';
+        weatherTableBody.innerHTML = '<tr><td colspan="2">Please Enter Valid Cities seperated by commas</td></tr>';
       }
     });
   });
